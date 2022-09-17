@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- <img src="https://github.com/yamisagi/*CHANGE_HERE*/blob/main/lib/constants/ss.png" width="350" height="650"> -->
+<img src="https://github.com/yamisagi/flutterdevcamp_travel_ui/blob/main/assets/ss.gif" width="350" height="650">
 
 
 In this project, I am trying to clone Travel UI from [#FlutterDevCamp from GDG London](https://twitter.com/gdglondon?s=20&t=Kruc-nFOBBGi48Lzdvx1xg) .
