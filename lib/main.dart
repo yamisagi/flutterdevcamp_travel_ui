@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterdevcamp_travel_ui/pages/home_page.dart';
+import 'package:flutterdevcamp_travel_ui/theme/theme.dart';
+import 'package:flutterdevcamp_travel_ui/utils/constant/constants.dart';
 
 void main() => runApp(
       const TravelAppUI(),
@@ -10,9 +12,11 @@ class TravelAppUI extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Material App',
-      home: HomePage(),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: Constants.appName,
+      theme: ProductTheme.productTheme,
+      home: const HomePage(),
     );
   }
 }
