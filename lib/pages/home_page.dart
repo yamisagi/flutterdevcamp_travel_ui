@@ -25,6 +25,20 @@ class HomePage extends StatelessWidget {
                 children: const [...Constants.componentList],
               ),
             ),
+            Padding(
+              padding: Constants.cardPadding,
+              child: SizedBox(
+                width: MediaQuery.of(context).size.width,
+                child: Text(
+                  Constants.popularText,
+                  textAlign: TextAlign.left,
+                  style: Theme.of(context).textTheme.headline4?.copyWith(
+                        fontSize: 32,
+                        fontWeight: FontWeight.bold,
+                      ),
+                ),
+              ),
+            ),
             const GridComponent()
           ],
         ),

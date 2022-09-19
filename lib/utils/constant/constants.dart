@@ -7,6 +7,7 @@ class Constants {
 //------------STRING CONSTANTS----------------
   static const String appName = "Travel App";
   static const String containerImagePath = "assets/container_pic.png";
+  static const String popularText = 'Popular Destinations';
 
 //------------PAD&MARGIN CONSTANTS----------------
   static const cardMargin = EdgeInsets.all(15);
